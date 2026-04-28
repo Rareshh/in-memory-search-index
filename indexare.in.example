@@ -1,0 +1,11 @@
+10
+ADD Doc1 90 3 database indexing search
+ADD Doc2 95 3 search algorithm trie
+ADD Doc3 80 2 database query
+FIND search
+TOPK search 2
+ADDKW Doc3 1 search
+TOPK search 3
+DELKW Doc1 1 database
+DEL Doc2
+PRINT

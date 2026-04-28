@@ -1,0 +1,20 @@
+# Compiled object files and binaries
+*.o
+*.exe
+search_index
+
+# Test files and intermediate outputs
+*.in
+*.out
+temp.out
+!indexare.in.example
+
+# University homework checker and test diffs
+checker.sh
+tests/diff/
+
+# OS and Editor files
+.vscode/
+.vs/
+.DS_Store
+Thumbs.db
